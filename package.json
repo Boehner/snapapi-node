@@ -1,0 +1,41 @@
+{
+  "name": "snapapi",
+  "version": "0.1.0",
+  "description": "Official SnapAPI SDK for Node.js and TypeScript — screenshots, metadata, PDF, and page analysis",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "screenshot", "api", "web-scraping", "metadata", "pdf",
+    "puppeteer", "snapapi", "page-analysis", "typescript", "sdk"
+  ],
+  "author": "SnapAPI <hello@snapapi.tech>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Boehner/snapapi-node"
+  },
+  "homepage": "https://snapapi.tech",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
