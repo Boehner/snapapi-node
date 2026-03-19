@@ -1,5 +1,5 @@
 {
-  "name": "snapapi",
+  "name": "snapapi-node",
   "version": "0.1.0",
   "description": "Official SnapAPI SDK for Node.js and TypeScript — screenshots, metadata, PDF, and page analysis",
   "main": "dist/index.js",
@@ -22,8 +22,16 @@
     "LICENSE"
   ],
   "keywords": [
-    "screenshot", "api", "web-scraping", "metadata", "pdf",
-    "puppeteer", "snapapi", "page-analysis", "typescript", "sdk"
+    "screenshot",
+    "api",
+    "web-scraping",
+    "metadata",
+    "pdf",
+    "puppeteer",
+    "snapapi",
+    "page-analysis",
+    "typescript",
+    "sdk"
   ],
   "author": "SnapAPI <hello@snapapi.tech>",
   "license": "MIT",
@@ -36,6 +44,7 @@
     "node": ">=18.0.0"
   },
   "devDependencies": {
+    "@types/node": "^25.5.0",
     "typescript": "^5.0.0"
   }
 }
